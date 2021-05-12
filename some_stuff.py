@@ -17,9 +17,9 @@ class Augintinis:
 
     def informacija(self, vardas):
         bendra = f'''Duomenys apie jūsų augintinį:\n
-                     [] Vardas: {self.vardas}\n
-                     [] Tipas: {self.tipas}\n
-                     [] Amžius: {self.amzius}'''
+                     [+] Vardas: {self.vardas}\n
+                     [+] Tipas: {self.tipas}\n
+                     [+] Amžius: {self.amzius}'''
         
         print(bendra)
 
@@ -29,7 +29,6 @@ class Augintinis:
 
 
 augintinis1 = Augintinis('Bilis', 'Šuo', '4 metai')
-print(type(augintinis1))
 print()
 augintinis1.help()
 augintinis1.informacija('Bilis')
